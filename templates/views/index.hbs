@@ -1,0 +1,21 @@
+<html>
+    <head>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css" >
+    
+    </head>
+    <body>
+        <h1> {{title}} </h1>
+        <p>{{>header}}</p>
+        <p id='site' style="font-size: large;">Use this site to find the weather!</p>
+         <form>
+             <input placeholder="Location...">
+             <button>Search</button>
+         </form>
+         <p id="one"></p>
+         <p id="two"></p>
+         <script src="/js/fetch.js"></script>
+    </body>
+    <footer>
+        {{>footer}}
+    </footer>
+</html>

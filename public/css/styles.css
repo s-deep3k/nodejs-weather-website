@@ -1,0 +1,48 @@
+body{
+    text-align: justify;
+    margin: 2px 16px;
+    padding: 0px 16px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+a{
+    border-bottom:  solid currentColor;
+    text-decoration: none;
+    color: #666666;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.5s ;
+}
+footer{
+    flex-grow: 1;
+    border-top: 2px solid;
+    margin-top: initial;
+}
+#site{
+    color: lightcoral;
+    transition: 0.5s;
+}
+#site:hover{
+    color: lightslategrey;
+}
+a:hover{
+    color: lightcoral;
+    
+}
+
+input{
+    border: lavender solid ;
+    padding: 5px;
+}
+button{
+    background-color:rgba(0, 0, 0, 0.418);
+    color: oldlace;
+    padding: 8px;
+}
