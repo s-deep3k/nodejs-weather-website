@@ -9,7 +9,7 @@ Form.addEventListener('submit',(e)=>{
     e.preventDefault();
     para1.textContent='Loading...'
     para2.textContent=''
-    fetch('http://localhost:4000/weather?address='+search.value).then((res)=>{
+    fetch('/weather?address='+search.value).then((res)=>{
     //console.log(res);
    // console.log(res.json());
     res.json().then((data)=>{

@@ -4,7 +4,7 @@ const path= require('path');
 const express = require('express');
 //Setting up express application
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 //Setting up a static files path directory 
 app.use(express.static(path.join(__dirname,'../public')))
 //Setting up views and partials template directory
