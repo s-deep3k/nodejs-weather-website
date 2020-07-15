@@ -19,7 +19,7 @@ Form.addEventListener('submit',(e)=>{
         para1.textContent=data.error;
     }
     else{
-        para1.textContent=search.value
+        para1.textContent=search.value+"'s (latitude : "+data.latitude+" and longitude : "+data.longitude+") current Weather Update :";
         para2.textContent=data.forecast
     }
 })

@@ -9,6 +9,8 @@ body{
     flex-direction: column;
 }
 h1{
+    margin-top: 6px;
+    margin-left: 2px ;
     font-size: 64px;
     margin-bottom: 16px;
 }
@@ -21,8 +23,10 @@ a{
     transition: 0.5s ;
 }
 footer{
+    margin-top: 10px;
     flex-grow: 1;
-    border-top: 2px solid;
+    border-top: 1px solid rgb(151, 151, 151);
+    color: rgb(77, 76, 76);
     margin-top: initial;
 }
 #site{
@@ -34,6 +38,7 @@ footer{
 }
 a:hover{
     color: lightcoral;
+    border-style: groove lightgrey;
     
 }
 
@@ -45,4 +50,9 @@ button{
     background-color:rgba(0, 0, 0, 0.418);
     color: oldlace;
     padding: 8px;
+    cursor: pointer;
+}
+img{
+    border-radius: 50%;
+    width :400px
 }
